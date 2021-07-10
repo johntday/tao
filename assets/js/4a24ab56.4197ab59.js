@@ -1,0 +1,1 @@
+(self.webpackChunktao=self.webpackChunktao||[]).push([[164],{7482:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/tao/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/tao/blog/tags/docusaurus"}')}}]);

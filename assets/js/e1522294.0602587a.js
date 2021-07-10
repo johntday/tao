@@ -1,0 +1,1 @@
+(self.webpackChunktao=self.webpackChunktao||[]).push([[66],{5858:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/tao/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
