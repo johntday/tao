@@ -2,5 +2,11 @@
 sidebar_position: 4
 ---
 
-# sed on Mac OS
+# sed
+Native `sed` on MacOS.
 
+## In-Place Find and Replace
+xxx
+
+## References
+- `man sed`

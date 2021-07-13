@@ -2,18 +2,41 @@
 sidebar_position: 1
 ---
 
-# Mac OS - grep 
+# grep
 
-Native `grep` with Mac OS.
+Native `grep` on MacOS.
 
-## Just Return Matching Files
-Find all files with at least 1 match.
+---
+
+## Only Return Matching Files
+Using `l` option will find all files with at least 1 match. Using `r` option will search recursively.
 
 ```shell
-grep -rl 'search text' /path/to/dir
+grep -rl 'pattern' /path/to/dir
 ```
 
-Just returns a list of absolute file paths.
+Only returns a list of absolute file paths.
+
+---
+
+## Multiple Search Patterns: OR
+xxx
+
+```shell
+grep [options] -e 'pattern1' -e 'pattern2'
+```
+
+---
+
+## Multiple Search Patterns: AND
+xxx
+
+---
+
+## Collect Matches Only
+xxx
+
+---
 
 ## References
 - `man grep`

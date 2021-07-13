@@ -25,13 +25,15 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Topics',
         },
+/**
         {
           to: '/blog',
           label: 'Blog',
           position: 'left'
         },
+*/
         {
           href: 'https://github.com/johntday/tao',
           label: 'GitHub',

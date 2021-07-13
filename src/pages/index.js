@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Documentation and snippets for developers using Java, bash, Mac OSX, and other technical tools.">
+      description="Documentation and snippets for developers using Java, bash, MacOS, and other technical tools.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
