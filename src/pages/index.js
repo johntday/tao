@@ -24,7 +24,7 @@ export default function Home() {
       description="Documentation and snippets for developers using Java, bash, MacOS, and other technical tools.">
       <HomepageHeader />
       <main>
-          <img src="../../static/img/flourish-tree2.svg"/>
+          <HomepageFeatures/>
       </main>
     </Layout>
   );
