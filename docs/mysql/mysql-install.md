@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Install
+# Install MySQL
 Install Docker MySQL 5.7 for MacOS
 
 ## Install Docker on MacOS
