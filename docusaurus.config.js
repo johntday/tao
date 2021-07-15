@@ -48,6 +48,19 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    algolia: {
+      appId: 'J3DNVWLVGC',
+      apiKey: '71eb049068de6928cb2650fa6d9bf86b',
+      indexName: 'tao',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
+    },
   },
   presets: [
     [
