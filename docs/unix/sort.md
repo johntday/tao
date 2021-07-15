@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 
 # sort
-Sort and/or dedup data.
+Using native MacOS *sort* utility for sorting and dedup data.
 
 ---
 

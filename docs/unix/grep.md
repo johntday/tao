@@ -20,7 +20,7 @@ Only returns a list of absolute file paths.
 ---
 
 ## Multiple Search Patterns: OR
-xxx
+Using more than one search pattern.  The patterns are *OR*'ed together.
 
 ```shell
 grep [options] -e 'pattern1' -e 'pattern2'
@@ -29,6 +29,8 @@ grep [options] -e 'pattern1' -e 'pattern2'
 ---
 
 ## Multiple Search Patterns: AND
+Using more than one search pattern.  The patterns are *AND*'ed together.
+
 xxx
 
 ---

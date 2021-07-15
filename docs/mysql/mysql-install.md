@@ -6,7 +6,8 @@ sidebar_position: 1
 Install Docker MySQL 5.7 for MacOS
 
 ## Install Docker on MacOS
-https://docs.docker.com/docker-for-mac/install/
+Guide for installing Docker on MacOS
+https://docs.docker.com/docker-for-mac/install/.
 
 ## Install MySQL 5.7 Image
 ```shell

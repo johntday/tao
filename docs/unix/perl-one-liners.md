@@ -9,6 +9,7 @@ Useful Perl command line utilities.
 
 ## Print Block of Text
 ### Consistent Markers
+Example where format is consistent.
 ```shell
 $ cat uniform.txt
 mango
@@ -40,7 +41,7 @@ b
 c
 **end 2**
 ```
-Other examples
+Other examples where the format is consistent.
 ```shell
 $ perl -ne '$f=0 if /end/; print "* $_" if $f; $f=1 if /start/' uniform.txt
 * 1234
