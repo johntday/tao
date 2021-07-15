@@ -3,65 +3,70 @@ sidebar_position: 2
 ---
 
 # Regex Perl
+Cheat sheet for PCRE2.
 
-## General Tokens
+## Tokens
 | | Description |
 | --- | --- |
+| `\n` | Newline |
+| `\r` | Carriage return |
 | `\t` | Tab |
-| `\n` | newline |
-| `\r` | carriage return |
-| `\xhh` | hex char code *hh* |
+| `[abc]` | Char of: a, b, or c |
+| `[^abc]` | Char except: a, b, or c |
+| `[a-z]` | Char in range: a-z |
+| `[^a-z]` | Char not in range: a-z |
+| `[a-zA-Z]` | Char in range: a-z or A-Z |
+| `.` | Any char |
+| <code>a&#124;b</code> | Char a or b |
+| `\s` | Any whitespace char - space, tab, newline |
+| `\S` | Any non-whitespace char |
+| `\d` | Any digit |
+| `\D` | Any non-digit |
+| `\w` | Any word char - alphanumeric or underscore |
+| `\W` | Any non-word char |
+| `\N` | Any char but newline |
+| `\xHH` | hex char code *HH* |
+| `\xHHHH` | hex char code *HHHH* |
 | `\0` | Null char |
-
-
-
-
-
-
-## Metacharacters
-| Char | Description |
-| --- | --- |
-| `^` | Beginning of line |
-| `$` | End of line |
-| `.` | Any char except newline |
-| `*` | Match 0 or more times |
-| `+` | Match 1 or more times |
-| `?` | Match 0 or 1 times, *OR* shortest match |
-| <code>&#124;</code> | Alternative |
-| `()` | Grouping |
-| `[]` | Set of chars |
-| `{}` | Repetition modifier |
-| <code>&#92;</code> | Quote *OR* special usage |
-
-- To escape a *Metacharacter*, prefix with <code>&#92;</code>.
-- Shortest match means that the shortest string matching the pattern is taken. 
-  The default is “greedy matching”, which finds the longest match.
-
-## Repetition
-| Example | Description |
-| --- | --- |
-| `a*` | 0 or more a's |
-| `a+` | 1 or more a's |
-| `a?` | 0 or 1 a's |
-| `a{m}` | Exactly *m* a's |
-| `a{m,}` | *m* or more a's |
-| `a{m,n}` | *m* to *n* a's |
-| `repetition?` | Shortest match for repetition |
-
-## Zero-width assertions
+## Quantifiers
 | | Description |
 | --- | --- |
-
+| `a*` | 0, 1, or more *a* |
+| `a?` | 0 or 1 *a* |
+| `a+` | 1 or more *a* |
+| `a{3}` | Exactly 3 *a* |
+| `a{3,}` | 3 or more *a* |
+| `a{3,5}` | Between 3 and 6 *a* |
+| `a*` | Greedy quantifier |
+| `a*?` | Lazy quantifier |
+| `a*+` | Possessive quantifier |
+## Anchors
+| | Description |
+| --- | --- |
+| `^` | Start of string |
+| `$` | End of string |
+| `\A` | Start of string - not affected by multiline mode|
+| `\Z` | End of string - not affected by multiline mode|
 | `\b` | Word boundary |
-| `\B` | Not a word boundary |
-
-## Matching
+| `\B` | Non-word boundary |
+| `\G` | Start of match |
+## Groups
 | | Description |
 | --- | --- |
-| `\w` | Match any word char - alphanumeric or *_* |
-| `\W` | Match any non-word char |
-| `\s` | Match any whitespace char - space, tab, newline |
-| `\S` | Match any non-whitespace char |
-| `\d` | Match any digit char |
-| `\D` | Match any non-digit char |
-
+| `(?:...)` | Match everything enclosed |
+| `(...)` | Capture everything enclosed |
+| `(?#...)` | Comment group |
+| `(?'name'...)` | Named capture group |
+| <code>(?(1)yes&#124;no)</code> | Conditional statement |
+| <code>(?(?=...)yes&#124;no)</code> | Lookahead conditional |
+| <code>(?(?<=...)yes&#124;no)</code> | Lookbehind conditional |
+| `(?=...)` | Positive lookahead |
+| `(?!...)` | Negative lookahead |
+| `(?<=...)` | Positive lookbehind |
+| `(?<!...)` | Negative lookbehind |
+| `(*ACCEPT)` | Control verb |
+| `(*COMMIT)` | Control verb |
+| `(*PRUNE)` | Control verb |
+| `(*SKIP)` | Control verb |
+| `(*THEN)` | Control verb |
+| `(*UTF8)` | Control verb |
