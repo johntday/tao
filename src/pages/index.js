@@ -20,11 +20,11 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Home`}
       description="Documentation and snippets for developers using Java, bash, MacOS, and other technical tools.">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+          <img src="../../static/img/flourish-tree2.svg"/>
       </main>
     </Layout>
   );
