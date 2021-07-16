@@ -302,7 +302,7 @@ $ echo "$s" | pj 'say join ":", @{$ip->{marks}}'
 78:62:93
 ```
 
-Compared to using [jq](https://stedolan.github.io/jq/)
+Compared with using [jq](https://stedolan.github.io/jq/)
 ```shell
 $ echo "$s" | jq '.fruit'
 "apple"
