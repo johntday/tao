@@ -5,6 +5,7 @@ sidebar_position: 1
 # grep
 
 Native `grep` on MacOS.
+See [ripgrep](./ripgrep.md) for a good replacement of `grep`.
 
 ---
 

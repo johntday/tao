@@ -18,10 +18,9 @@ Other useful options with this are
 
 ## Find commits by author
 ```shell
+# find commits by author for 'John' or 'Mary'
 git log --author="John\|Mary"
 ```
-Find commits by author for 'John' or 'Mary'.
-
 ## Find commits between two dates
 ```shell
 git log --after "2014-02-01" --before "2014-02-02"
