@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Git Log
+# Search Git History
 Search and display commits from `git` history.
 Additional examples and options may be found here https://git-scm.com/docs/
 
