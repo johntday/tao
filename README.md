@@ -1,8 +1,9 @@
 # Tao
 
-This website was built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+**PURPOSE**: Provide useful documentation for development.
 
 ## Installation
+This website was built using [Docusaurus 2](https://docusaurus.io/).
 
 ```console
 yarn install
@@ -31,3 +32,12 @@ yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Index
+
+```console
+yarn index 
+```
+
+If you are using [DocSearch](https://docsearch.algolia.com/) for index and site search, 
+this command will parse data and send to *Algolia* API for index.
