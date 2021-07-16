@@ -168,7 +168,7 @@ $ seq 30 | perl -ne 'if(/4/){$f=1; $buf=$_; next}
 ```
 
 ### Not Consistent Markers
-Using buffer when markers are inconsistent.
+Using `buffer` when format is not consistent.
 ```shell
 $ cat broken.txt
 qqqqqqqqqqqqqqqq
