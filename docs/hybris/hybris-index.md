@@ -3,9 +3,9 @@ sidebar_position: 1
 ---
 
 # Hybris Links 
-A set of links for Hybris.
+A set of useful links for SAP Commerce Cloud (Hybris).
 
-## HIGH LEVEL
+## CATEGORIES
 - [SAP Integration](https://help.sap.com/viewer/50c996852b32456c96d3161a95544cdb/1905/en-US/8bc689be8669101494bbfb5c2a78f6a3.html)
 - [OCC or REST Reference](https://help.sap.com/viewer/e5d7cec9064f453b84235dc582b886da/1905/en-US)
 - [Platform](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/8c29ad3f8669101485378214f6a7e2b6.html)
