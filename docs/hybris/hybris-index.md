@@ -6,6 +6,7 @@ sidebar_position: 1
 A set of useful links for SAP Commerce Cloud (Hybris).
 
 ## CATEGORIES
+- [SAP Cloud Integration](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/2fb0aa4dc5194b589adcd1c5534901e3.html)
 - [SAP Integration](https://help.sap.com/viewer/50c996852b32456c96d3161a95544cdb/1905/en-US/8bc689be8669101494bbfb5c2a78f6a3.html)
 - [OCC or REST Reference](https://help.sap.com/viewer/e5d7cec9064f453b84235dc582b886da/1905/en-US)
 - [Platform](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/8c29ad3f8669101485378214f6a7e2b6.html)
@@ -25,17 +26,32 @@ A set of useful links for SAP Commerce Cloud (Hybris).
 - [Installing and Upgrading](https://help.sap.com/viewer/a74589c3a81a4a95bf51d87258c0ab15/1905/en-US/f09d46cf4a2546b586ed7021655e4715.html)
 - [Reference](https://help.sap.com/viewer/c5613bd3cc9942efb74d017b40eb0892/1905/en-US/50f85820edaa406a8c6103bb9725d637.html)
 - [Backoffice](https://help.sap.com/viewer/5c9ea0c629214e42b727bf08800d8dfa/1905/en-US/8c17707686691014b72a8fb745de355a.html)
+- [Backend Administration](https://help.sap.com/viewer/5c9ea0c629214e42b727bf08800d8dfa/1811/en-US/80f810cb6cf644879867a50eb137ae25.html)
 - [Accelerators](https://help.sap.com/viewer/4c33bf189ab9409e84e589295c36d96e/1905/en-US)
   - [B2C Accelerator](https://help.sap.com/viewer/4c33bf189ab9409e84e589295c36d96e/1905/en-US/1d2fea5f94644d07b3c301994691f978.html)
   - [B2B Accelerator](https://help.sap.com/viewer/4c33bf189ab9409e84e589295c36d96e/1905/en-US/1903a88ad0c34cf6b7faae621ebef3a8.html)
   - [B2B Commerce Architecture](https://help.sap.com/viewer/4c33bf189ab9409e84e589295c36d96e/1905/en-US/7b2a5b736ff541398ea970c77e15de62.html)
-
+- [Spartacus](https://sap.github.io/spartacus-docs/)
+- [Commerce Cloud API Documentation](https://help.sap.com/viewer/452dcbb0e00f47e88a69cdaeb87a925d/v2011/en-US/66abfe678b55457fab235ce8039dda71.html)
+- [Cloud Portal](https://help.sap.com/viewer/0fa6bcf4736c46f78c248512391eb467/v2011/en-US/65e64c9602534b8aaf25bb119670614f.html)
+  - [Cloud Portal / SAP Discovery Center](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/6.6.0.0/en-US/8c072d3c86691014b47a9dfeaec0fe3f.html)
+- [CxWorks](https://www.sap.com/cxworks/search/*/products_commerce)
+- [Epam](https://hybrismart.com/tools/)
 ---
+
+## Backoffice
+- [Starting with Backoffice Framework](https://help.sap.com/viewer/5c9ea0c629214e42b727bf08800d8dfa/1905/en-US/8c1744f98669101480c1e61ca8014a21.html)
+- [Backoffice Config XML](https://help.sap.com/viewer/5c9ea0c629214e42b727bf08800d8dfa/1811/en-US/8bd51bcd8669101486cec32d579bb2c2.html#loio4aac30484bca4788a5a93060435c08aa)
 
 ## Adobe Experience Manager (AEM)
 - [AEM Integration](https://help.sap.com/viewer/9d346683b0084da2938be8a285c0c27a/1905/en-US/8ba212a886691014ba63d7684506c9b6.html)
 
+## Cloud Hot Folders and Azure Blob Storage
+- [Get the Most out of Your Cloud Hot Folders and Azure Blob Storage](https://www.sap.com/cxworks/article/456897746/get_the_most_out_of_your_cloud_hot_folders_and_azure_blob_storage)
+- [Cloud Hot Folders](https://help.sap.com/viewer/403d43bf9c564f5a985913d1fbfbf8d7/v2011/en-US/4e541ea07bbe468f9b684be4a02e4197.html)
+
 ## Architecture
+- [SAP Commerce Cloud Architecture](https://help.sap.com/viewer/20125f0eca6340dba918bda360e3cdfa/v2011/en-US/8b5588d8866910149d4eb5f99c75b6b4.html)
 - [API Documentation](https://help.sap.com/viewer/c5613bd3cc9942efb74d017b40eb0892/1905/en-US/18caa4b5c32c4bcf8b38c6260c0f30e8.html)
 - [Wireframes](https://help.sap.com/viewer/c5613bd3cc9942efb74d017b40eb0892/1905/en-US/16531d628ecc45659aaf10b3869a18d9.html)
 - [Feature List](https://help.sap.com/viewer/c5613bd3cc9942efb74d017b40eb0892/1905/en-US/f87b92bb1ed44bb78afa06fac78252d9.html)
@@ -72,6 +88,8 @@ https://help.sap.com/viewer/9d346683b0084da2938be8a285c0c27a/1905/en-US/720bd504
 
 ## Cleanup - Data Retention Framework
 - [Data Cleanup](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/2268d55f40c94c5e8c43fa47f3b609a4.html)
+- [Clean up old data](https://clutcher.github.io/post/hybris/snippets/clean_up_old_data/)
+- [Clean up job](https://www.stackextend.com/hybris/use-cleanup-job-in-sap-hybris/)
 
 ## Configuration and Properties
 - [Configuration](https://help.sap.com/viewer/b490bb4e85bc42a7aa09d513d0bcb18e/1905/en-US/8b88a76e866910148262f76aca96ce93.html)
@@ -84,6 +102,8 @@ https://help.sap.com/viewer/9d346683b0084da2938be8a285c0c27a/1905/en-US/720bd504
 - [Build with Gradle](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/1905/en-US/723ef1b469bc48968c9637bb564010e7.html)
 - [Building Extensible Web Applications](https://help.sap.com/viewer/b490bb4e85bc42a7aa09d513d0bcb18e/1905/en-US/5e097b4cb9e8472380b7bd41d3a58279.html)
 - [Patch](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/1905/en-US/42a029becf1744199a108c4b2808d987.html)
+- [Commerce Cloud API Documentation](https://help.sap.com/viewer/452dcbb0e00f47e88a69cdaeb87a925d/v2011/en-US/66abfe678b55457fab235ce8039dda71.html)
+- [Commerce Cloud Repository](https://help.sap.com/viewer/1be46286b36a4aa48205be5a96240672/v2011/en-US)
 
 ## Extension
 Modulegen | webroot | Storefront
@@ -113,6 +133,8 @@ https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/1905/en-US/8c03463a
 
 ## Logging
 - [Logging](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/8c07853c866910148a00baf81ea1669e.html)
+- [log4j2](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/6.6.0.0/en-US/42d818c7bac44eed9ab01757472b9dbc.html)
+- [JDBC Logging](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/6.6.0.0/en-US/8c072d3c86691014b47a9dfeaec0fe3f.html)
 
 ## Modeling
 - [items.xml](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/8bff7a568669101488a5e40cb7bbd0b9.html)
@@ -125,6 +147,7 @@ https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/1905/en-US/8c03463a
 - [Region Cache](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/b50d73d079fb42b4a1dd2ec59393f63e.html)
 - [Solr Cache](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/1905/en-US/8b4363f786691014bdfe81fc420cfabe.html)
 - [Startup Tuning](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/1905/en-US/ac4345084cdc4b0f8f4045e208eef43e.html)
+- [Dynatrace CxWorks](https://www.sap.com/cxworks/article/481368129/using_dynatrace_to_manage_and_optimize_the_performance_of_your_sap_commerce_cloud_solution)
 
 ## Programming Model (Layers)
 ### OCC or REST
@@ -177,6 +200,7 @@ ApplicationContext | spring.xml | WebApplicationContext | Spring MVC | Spring Fr
 - [outh2](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/3d3ea6a4d5fa486aa324ce278fa2afc3.html)
 ### CORS
 - [cors](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/b27d995150a74be08869e60e3fbc7395.html)
+- [Spartacus CORS](https://sap.github.io/spartacus-docs/cors/)
 
 ## Solr
 - [Solr Configuration](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2005/en-US/8c6009dd86691014b808e77b0fde95f3.html)
@@ -197,3 +221,5 @@ ApplicationContext | spring.xml | WebApplicationContext | Spring MVC | Spring Fr
 ## Voucher
 - [Voucher Redemption and Validation](https://help.sap.com/viewer/9d346683b0084da2938be8a285c0c27a/1905/en-US/24a362d65b0f4f8faf8da3b1d89dd510.html)
 
+## Spartacus
+- [Install Spartacus](https://sap.github.io/spartacus-docs/installing-sap-commerce-cloud/)
