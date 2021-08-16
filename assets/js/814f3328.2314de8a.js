@@ -1,0 +1,1 @@
+(self.webpackChunktao=self.webpackChunktao||[]).push([[2535],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/tao/blog/welcome"},{"title":"Hello","permalink":"/tao/blog/hello-world"},{"title":"Hola","permalink":"/tao/blog/hola"}]}')}}]);

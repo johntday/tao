@@ -1,1 +1,0 @@
-(self.webpackChunktao=self.webpackChunktao||[]).push([[876],{8251:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/tao/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/tao/blog/tags/hello"}')}}]);
