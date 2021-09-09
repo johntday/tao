@@ -24,7 +24,7 @@ return List.of();
 
 Both of these return an immutable list so the calling code should make no attempt to modify it.
 
-### Return an Optional object
+## Return an Optional object
 Java 8 introduced a class called `java.util.Optional`.  An `Optional` is a container that can either be empty or contain a non-null value.
 
 `Optional` **IS NOT MEANT** to take the place of returning null. It is meant to indicate a third return result. The three possible results are:
@@ -34,7 +34,7 @@ Java 8 introduced a class called `java.util.Optional`.  An `Optional` is a conta
 
 Adding `Optional` everywhere you return anything is an anti-pattern, and just replaces all of those null checks/guards with `isPresent` checks/guards. Doesn't fix the problem, just moves it.
 
-### Return a Null Object
+## Return a Null Object
 The Null Object Pattern is described in the [Gang of Four’s Design Patterns book](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/).  
 The intent of the pattern is to identify behavior that should occur when a null is encountered and encapsulate it using a static constant.
 
@@ -67,7 +67,7 @@ public class Blog {
 On line 2, we've declared a constant to represent our null object.   It's a Blog object with some sensible values for a non-existent blog.
 Any methods that return a Blog type can now use `Blog.NOT_FOUND` instead of null.
 
-### Throw an Exception
+## Throw an Exception
 Exceptions should be reserved for exceptional conditions.    If we always expect to find a value then throwing an exception makes sense.
 For example, we could throw an unchecked exception if an ID passed to our method isn't found in the database.
 
